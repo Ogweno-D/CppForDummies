@@ -81,7 +81,7 @@ int main()
 
  // For int
  int arr[]= { 12,3,24,67,54,23,13};
- size_t size = std::size(arr);
+ size_t size = size(arr);
  size_t element_size_bytes = sizeof(arr[0]);
 
  // simple_bubble_sort(arr, size);
@@ -96,7 +96,7 @@ int main()
  cout << "\n ===============================================\n" << endl;
  // For doubles
  double doubleArray[] = {3.14, 1.618, 2.718, 0.577, 9.81};
- size_t doubleArray_size = std::size(doubleArray);
+ size_t doubleArray_size = size(doubleArray);
  size_t doubleArray_element_size = sizeof(doubleArray[0]);
 
  // Sort
@@ -109,7 +109,7 @@ int main()
  cout << "\n===============================================\n" << endl;
  // For characters
  char charArray[] = {'z', 'a', 'x', 'c', 'v', 'b'};
- size_t charArray_size = std::size(charArray);
+ size_t charArray_size = size(charArray);
  size_t charArray_element_size = sizeof(charArray[0]);
 
  // Sort

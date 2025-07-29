@@ -7,9 +7,9 @@ using namespace std;
 void display();
 void swap(int a, int b);
 void swapByReference(int &a, int &b);
-int factorial(int n);
+inline int factorial(int n);
 int factorialRecursive(int n);
-
+void displayName();
 
 int main()
 {
@@ -54,7 +54,6 @@ void swapByReference(int &a,int &b)
     a = b;
     b = temp;
 }
-
 /*
 * Simple Function (Ask user to enter their name and it outputs their name to the console)
 */
@@ -65,11 +64,10 @@ void display()
     cin>> name;
     cout << "I am trying if this will work " << name << endl;
 }
-
 /*
  * Factorial function
 */
-int factorial(int n)
+inline int factorial(int n)
 {
     int result = 1;
     for (int i = 1; i <= n; i++)
@@ -86,4 +84,15 @@ int factorial(int n)
 // {
 //     return (n<2) ? 1 : n*factorialRecursive(n);
 // }
+
+/*
+ * Characters manipulation
+*/
+void displayName()
+{
+    char name [20];
+    cout << "Enter your name: ";
+    cin>> name;
+    cout << "I am trying if this will work " << name << endl;
+}
 
