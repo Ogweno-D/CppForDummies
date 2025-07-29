@@ -45,6 +45,6 @@ int main()
 
  cout<< *(*(*cubeArray))<<endl;
  cout << *(*(*(cubeArray+1)+2)) << endl;
-
+ cout<< "This is the end!" << endl;
  }
 
