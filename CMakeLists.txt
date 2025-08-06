@@ -31,3 +31,7 @@ add_executable(operator_overloading_3
 )
 
 add_executable(Inheritance Inheritance/Inheritance.cpp)
+add_executable(Function_templates Templates/Arithmetic.cpp)
+add_executable(Class_templates Templates/Stack.cpp)
+add_executable(class_templates_2 Templates/LinkedList.cpp)
+
