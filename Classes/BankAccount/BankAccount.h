@@ -10,6 +10,8 @@ using  namespace  std;
 
 class BankAccount {
     public:
+        // Static
+        static int accountCount;
         string name;
         int bankNumber;
         double balance;
@@ -18,6 +20,7 @@ class BankAccount {
 
     // Constructor
     void withdraw(double amount);
+    static  void increaseCounter();
 
 };
 

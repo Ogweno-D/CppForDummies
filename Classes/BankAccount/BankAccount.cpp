@@ -37,3 +37,10 @@ void BankAccount::withdraw(double amount)
     cout << " Name: " << name << endl;
     cout << "Current amount: " << rem << endl;
 }
+
+int BankAccount::accountCount = 0;
+void BankAccount::increaseCounter()
+ {
+    cout<< accountCount++ <<endl;
+
+ }

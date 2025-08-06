@@ -9,18 +9,28 @@
 using  namespace  std;
 
 
- Person::Person()
-{
-    this->age = 0;
-    this->marks = 0;
-}
+//  Person::Person()
+// {
+//     this->age = 0;
+//     this->marks = 0;
+// }
 
+ Person::Person() { age = 0, marks =0; }
+
+
+
+ // Person::Person(int age, int marks)
+ // {
+ //     this->age = age;
+ //     this->marks = marks;
+ // }
 
  Person::Person(int age, int marks)
  {
-     this->age = age;
-     this->marks = marks;
+     this->age= age;
+     this->marks= marks;
  }
+
 
 int Person::getAge()
  {

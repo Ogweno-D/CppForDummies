@@ -15,6 +15,8 @@ int main()
 
     BankAccount bank2("Dennis",12342, 2000.00);
     bank2.withdraw(200.00 );
+    BankAccount::increaseCounter();
+    bank2.increaseCounter();
 
     // Learnt something new here
     // -> single quote char literals are of an integer type
